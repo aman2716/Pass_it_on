@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07240F891C7F89AC0010DCDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240F881C7F89AC0010DCDC /* main.m */; };
+		07240F8C1C7F89AC0010DCDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240F8B1C7F89AC0010DCDC /* AppDelegate.m */; };
+		07240F8F1C7F89AC0010DCDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240F8E1C7F89AC0010DCDC /* ViewController.m */; };
+		07240F921C7F89AC0010DCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07240F901C7F89AC0010DCDC /* Main.storyboard */; };
+		07240F951C7F89AD0010DCDC /* passiton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07240F931C7F89AD0010DCDC /* passiton.xcdatamodeld */; };
+		07240F971C7F89AD0010DCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07240F961C7F89AD0010DCDC /* Assets.xcassets */; };
+		07240F9A1C7F89AD0010DCDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07240F981C7F89AD0010DCDC /* LaunchScreen.storyboard */; };
+		07240FA51C7F89AD0010DCDC /* passitonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FA41C7F89AD0010DCDC /* passitonTests.m */; };
+		07240FB01C7F89AD0010DCDC /* passitonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FAF1C7F89AD0010DCDC /* passitonUITests.m */; };
+		07240FBF1C7F89FB0010DCDC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FBE1C7F89FB0010DCDC /* TableViewController.m */; };
+		07240FC21C7F8C690010DCDC /* EmpLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FC11C7F8C690010DCDC /* EmpLoginViewController.m */; };
+		07240FC51C7F8C7A0010DCDC /* HrLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FC41C7F8C7A0010DCDC /* HrLoginViewController.m */; };
+		07240FC81C7F8C8D0010DCDC /* FinLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FC71C7F8C8D0010DCDC /* FinLoginViewController.m */; };
+		07240FCB1C7F9A920010DCDC /* EmpSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FCA1C7F9A920010DCDC /* EmpSignUpViewController.m */; };
+		07240FCE1C7F9AA50010DCDC /* HrSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FCD1C7F9AA50010DCDC /* HrSignUpViewController.m */; };
+		07240FD11C7F9AB40010DCDC /* FinSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FD01C7F9AB40010DCDC /* FinSignUpViewController.m */; };
+		07240FD71C8055F60010DCDC /* DetailEmpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FD61C8055F60010DCDC /* DetailEmpViewController.m */; };
+		07240FDA1C8056330010DCDC /* ReimbTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FD91C8056330010DCDC /* ReimbTableViewController.m */; };
+		07240FE31C8071FD0010DCDC /* CtcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FE21C8071FD0010DCDC /* CtcTableViewController.m */; };
+		07240FE61C8072B60010DCDC /* NonctcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FE51C8072B60010DCDC /* NonctcTableViewController.m */; };
+		07240FE91C8076CF0010DCDC /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FE81C8076CF0010DCDC /* addViewController.m */; };
+		07240FEC1C80C0340010DCDC /* addnctcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FEB1C80C0340010DCDC /* addnctcViewController.m */; };
+		07240FF11C80D5AE0010DCDC /* CompCtcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FF01C80D5AE0010DCDC /* CompCtcViewController.m */; };
+		07240FF41C80D5BE0010DCDC /* CompNctcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FF31C80D5BE0010DCDC /* CompNctcViewController.m */; };
+		07240FF71C81009A0010DCDC /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FF61C81009A0010DCDC /* Model.m */; };
+		07240FFB1C8127830010DCDC /* sharedDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FFA1C8127830010DCDC /* sharedDB.m */; };
+		07240FFF1C8144820010DCDC /* HrNameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07240FFE1C8144820010DCDC /* HrNameTableViewController.m */; };
+		072410021C81560F0010DCDC /* HrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072410011C81560F0010DCDC /* HrViewController.m */; };
+		072410051C8191D80010DCDC /* FinTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072410041C8191D80010DCDC /* FinTableViewController.m */; };
+		072410081C8191ED0010DCDC /* FinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072410071C8191ED0010DCDC /* FinViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07240FA11C7F89AD0010DCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07240F7C1C7F89AC0010DCDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07240F831C7F89AC0010DCDC;
+			remoteInfo = passiton;
+		};
+		07240FAC1C7F89AD0010DCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07240F7C1C7F89AC0010DCDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07240F831C7F89AC0010DCDC;
+			remoteInfo = passiton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07240F841C7F89AC0010DCDC /* passiton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passiton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07240F881C7F89AC0010DCDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07240F8A1C7F89AC0010DCDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07240F8B1C7F89AC0010DCDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07240F8D1C7F89AC0010DCDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07240F8E1C7F89AC0010DCDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07240F911C7F89AC0010DCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07240F941C7F89AD0010DCDC /* passiton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = passiton.xcdatamodel; sourceTree = "<group>"; };
+		07240F961C7F89AD0010DCDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07240F991C7F89AD0010DCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07240F9B1C7F89AD0010DCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07240FA01C7F89AD0010DCDC /* passitonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passitonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07240FA41C7F89AD0010DCDC /* passitonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = passitonTests.m; sourceTree = "<group>"; };
+		07240FA61C7F89AD0010DCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07240FAB1C7F89AD0010DCDC /* passitonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passitonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07240FAF1C7F89AD0010DCDC /* passitonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = passitonUITests.m; sourceTree = "<group>"; };
+		07240FB11C7F89AD0010DCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07240FBD1C7F89FB0010DCDC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		07240FBE1C7F89FB0010DCDC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		07240FC01C7F8C690010DCDC /* EmpLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmpLoginViewController.h; sourceTree = "<group>"; };
+		07240FC11C7F8C690010DCDC /* EmpLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmpLoginViewController.m; sourceTree = "<group>"; };
+		07240FC31C7F8C7A0010DCDC /* HrLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HrLoginViewController.h; sourceTree = "<group>"; };
+		07240FC41C7F8C7A0010DCDC /* HrLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HrLoginViewController.m; sourceTree = "<group>"; };
+		07240FC61C7F8C8D0010DCDC /* FinLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinLoginViewController.h; path = ../FinLoginViewController.h; sourceTree = "<group>"; };
+		07240FC71C7F8C8D0010DCDC /* FinLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinLoginViewController.m; path = ../FinLoginViewController.m; sourceTree = "<group>"; };
+		07240FC91C7F9A920010DCDC /* EmpSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmpSignUpViewController.h; sourceTree = "<group>"; };
+		07240FCA1C7F9A920010DCDC /* EmpSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmpSignUpViewController.m; sourceTree = "<group>"; };
+		07240FCC1C7F9AA50010DCDC /* HrSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HrSignUpViewController.h; sourceTree = "<group>"; };
+		07240FCD1C7F9AA50010DCDC /* HrSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HrSignUpViewController.m; sourceTree = "<group>"; };
+		07240FCF1C7F9AB40010DCDC /* FinSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinSignUpViewController.h; sourceTree = "<group>"; };
+		07240FD01C7F9AB40010DCDC /* FinSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinSignUpViewController.m; sourceTree = "<group>"; };
+		07240FD51C8055F60010DCDC /* DetailEmpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailEmpViewController.h; sourceTree = "<group>"; };
+		07240FD61C8055F60010DCDC /* DetailEmpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailEmpViewController.m; sourceTree = "<group>"; };
+		07240FD81C8056330010DCDC /* ReimbTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReimbTableViewController.h; sourceTree = "<group>"; };
+		07240FD91C8056330010DCDC /* ReimbTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReimbTableViewController.m; sourceTree = "<group>"; };
+		07240FE11C8071FD0010DCDC /* CtcTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CtcTableViewController.h; sourceTree = "<group>"; };
+		07240FE21C8071FD0010DCDC /* CtcTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CtcTableViewController.m; sourceTree = "<group>"; };
+		07240FE41C8072B60010DCDC /* NonctcTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NonctcTableViewController.h; path = passiton/NonctcTableViewController.h; sourceTree = "<group>"; };
+		07240FE51C8072B60010DCDC /* NonctcTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NonctcTableViewController.m; path = passiton/NonctcTableViewController.m; sourceTree = "<group>"; };
+		07240FE71C8076CF0010DCDC /* addViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = addViewController.h; path = passiton/addViewController.h; sourceTree = "<group>"; };
+		07240FE81C8076CF0010DCDC /* addViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = addViewController.m; path = passiton/addViewController.m; sourceTree = "<group>"; };
+		07240FEA1C80C0340010DCDC /* addnctcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addnctcViewController.h; sourceTree = "<group>"; };
+		07240FEB1C80C0340010DCDC /* addnctcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addnctcViewController.m; sourceTree = "<group>"; };
+		07240FEF1C80D5AE0010DCDC /* CompCtcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompCtcViewController.h; path = passiton/CompCtcViewController.h; sourceTree = "<group>"; };
+		07240FF01C80D5AE0010DCDC /* CompCtcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompCtcViewController.m; path = passiton/CompCtcViewController.m; sourceTree = "<group>"; };
+		07240FF21C80D5BE0010DCDC /* CompNctcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompNctcViewController.h; path = passiton/CompNctcViewController.h; sourceTree = "<group>"; };
+		07240FF31C80D5BE0010DCDC /* CompNctcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompNctcViewController.m; path = passiton/CompNctcViewController.m; sourceTree = "<group>"; };
+		07240FF51C81009A0010DCDC /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		07240FF61C81009A0010DCDC /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		07240FF91C8127830010DCDC /* sharedDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sharedDB.h; path = passiton/sharedDB.h; sourceTree = "<group>"; };
+		07240FFA1C8127830010DCDC /* sharedDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sharedDB.m; path = passiton/sharedDB.m; sourceTree = "<group>"; };
+		07240FFD1C8144820010DCDC /* HrNameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HrNameTableViewController.h; sourceTree = "<group>"; };
+		07240FFE1C8144820010DCDC /* HrNameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HrNameTableViewController.m; sourceTree = "<group>"; };
+		072410001C81560F0010DCDC /* HrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HrViewController.h; path = passiton/HrViewController.h; sourceTree = "<group>"; };
+		072410011C81560F0010DCDC /* HrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HrViewController.m; path = passiton/HrViewController.m; sourceTree = "<group>"; };
+		072410031C8191D80010DCDC /* FinTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinTableViewController.h; path = passiton/FinTableViewController.h; sourceTree = "<group>"; };
+		072410041C8191D80010DCDC /* FinTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinTableViewController.m; path = passiton/FinTableViewController.m; sourceTree = "<group>"; };
+		072410061C8191ED0010DCDC /* FinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinViewController.h; path = passiton/FinViewController.h; sourceTree = "<group>"; };
+		072410071C8191ED0010DCDC /* FinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinViewController.m; path = passiton/FinViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07240F811C7F89AC0010DCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07240F9D1C7F89AD0010DCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07240FA81C7F89AD0010DCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07240F7B1C7F89AC0010DCDC = {
+			isa = PBXGroup;
+			children = (
+				072410091C8191F40010DCDC /* Fin */,
+				07240FFC1C81444B0010DCDC /* hr */,
+				07240FF81C8100A90010DCDC /* Model */,
+				07240FEE1C80C1420010DCDC /* CTC */,
+				07240FED1C80C1260010DCDC /* Non-CTC */,
+				07240F861C7F89AC0010DCDC /* passiton */,
+				07240FA31C7F89AD0010DCDC /* passitonTests */,
+				07240FAE1C7F89AD0010DCDC /* passitonUITests */,
+				07240F851C7F89AC0010DCDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07240F851C7F89AC0010DCDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07240F841C7F89AC0010DCDC /* passiton.app */,
+				07240FA01C7F89AD0010DCDC /* passitonTests.xctest */,
+				07240FAB1C7F89AD0010DCDC /* passitonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07240F861C7F89AC0010DCDC /* passiton */ = {
+			isa = PBXGroup;
+			children = (
+				07240F8A1C7F89AC0010DCDC /* AppDelegate.h */,
+				07240F8B1C7F89AC0010DCDC /* AppDelegate.m */,
+				07240F8D1C7F89AC0010DCDC /* ViewController.h */,
+				07240F8E1C7F89AC0010DCDC /* ViewController.m */,
+				07240F901C7F89AC0010DCDC /* Main.storyboard */,
+				07240FD81C8056330010DCDC /* ReimbTableViewController.h */,
+				07240FD91C8056330010DCDC /* ReimbTableViewController.m */,
+				07240FD51C8055F60010DCDC /* DetailEmpViewController.h */,
+				07240FD61C8055F60010DCDC /* DetailEmpViewController.m */,
+				07240FBD1C7F89FB0010DCDC /* TableViewController.h */,
+				07240FBE1C7F89FB0010DCDC /* TableViewController.m */,
+				07240FC01C7F8C690010DCDC /* EmpLoginViewController.h */,
+				07240FC11C7F8C690010DCDC /* EmpLoginViewController.m */,
+				07240FC91C7F9A920010DCDC /* EmpSignUpViewController.h */,
+				07240FCA1C7F9A920010DCDC /* EmpSignUpViewController.m */,
+				07240FC31C7F8C7A0010DCDC /* HrLoginViewController.h */,
+				07240FC41C7F8C7A0010DCDC /* HrLoginViewController.m */,
+				07240FCC1C7F9AA50010DCDC /* HrSignUpViewController.h */,
+				07240FCD1C7F9AA50010DCDC /* HrSignUpViewController.m */,
+				07240FC61C7F8C8D0010DCDC /* FinLoginViewController.h */,
+				07240FC71C7F8C8D0010DCDC /* FinLoginViewController.m */,
+				07240FCF1C7F9AB40010DCDC /* FinSignUpViewController.h */,
+				07240FD01C7F9AB40010DCDC /* FinSignUpViewController.m */,
+				07240F961C7F89AD0010DCDC /* Assets.xcassets */,
+				07240F981C7F89AD0010DCDC /* LaunchScreen.storyboard */,
+				07240F9B1C7F89AD0010DCDC /* Info.plist */,
+				07240F931C7F89AD0010DCDC /* passiton.xcdatamodeld */,
+				07240F871C7F89AC0010DCDC /* Supporting Files */,
+			);
+			path = passiton;
+			sourceTree = "<group>";
+		};
+		07240F871C7F89AC0010DCDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07240F881C7F89AC0010DCDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07240FA31C7F89AD0010DCDC /* passitonTests */ = {
+			isa = PBXGroup;
+			children = (
+				07240FA41C7F89AD0010DCDC /* passitonTests.m */,
+				07240FA61C7F89AD0010DCDC /* Info.plist */,
+			);
+			path = passitonTests;
+			sourceTree = "<group>";
+		};
+		07240FAE1C7F89AD0010DCDC /* passitonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07240FAF1C7F89AD0010DCDC /* passitonUITests.m */,
+				07240FB11C7F89AD0010DCDC /* Info.plist */,
+			);
+			path = passitonUITests;
+			sourceTree = "<group>";
+		};
+		07240FED1C80C1260010DCDC /* Non-CTC */ = {
+			isa = PBXGroup;
+			children = (
+				07240FE41C8072B60010DCDC /* NonctcTableViewController.h */,
+				07240FE51C8072B60010DCDC /* NonctcTableViewController.m */,
+				07240FEA1C80C0340010DCDC /* addnctcViewController.h */,
+				07240FEB1C80C0340010DCDC /* addnctcViewController.m */,
+				07240FF21C80D5BE0010DCDC /* CompNctcViewController.h */,
+				07240FF31C80D5BE0010DCDC /* CompNctcViewController.m */,
+			);
+			name = "Non-CTC";
+			sourceTree = "<group>";
+		};
+		07240FEE1C80C1420010DCDC /* CTC */ = {
+			isa = PBXGroup;
+			children = (
+				07240FE11C8071FD0010DCDC /* CtcTableViewController.h */,
+				07240FE21C8071FD0010DCDC /* CtcTableViewController.m */,
+				07240FE71C8076CF0010DCDC /* addViewController.h */,
+				07240FE81C8076CF0010DCDC /* addViewController.m */,
+				07240FEF1C80D5AE0010DCDC /* CompCtcViewController.h */,
+				07240FF01C80D5AE0010DCDC /* CompCtcViewController.m */,
+			);
+			name = CTC;
+			sourceTree = "<group>";
+		};
+		07240FF81C8100A90010DCDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07240FF51C81009A0010DCDC /* Model.h */,
+				07240FF61C81009A0010DCDC /* Model.m */,
+				07240FF91C8127830010DCDC /* sharedDB.h */,
+				07240FFA1C8127830010DCDC /* sharedDB.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		07240FFC1C81444B0010DCDC /* hr */ = {
+			isa = PBXGroup;
+			children = (
+				07240FFD1C8144820010DCDC /* HrNameTableViewController.h */,
+				07240FFE1C8144820010DCDC /* HrNameTableViewController.m */,
+				072410001C81560F0010DCDC /* HrViewController.h */,
+				072410011C81560F0010DCDC /* HrViewController.m */,
+			);
+			name = hr;
+			sourceTree = "<group>";
+		};
+		072410091C8191F40010DCDC /* Fin */ = {
+			isa = PBXGroup;
+			children = (
+				072410031C8191D80010DCDC /* FinTableViewController.h */,
+				072410041C8191D80010DCDC /* FinTableViewController.m */,
+				072410061C8191ED0010DCDC /* FinViewController.h */,
+				072410071C8191ED0010DCDC /* FinViewController.m */,
+			);
+			name = Fin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07240F831C7F89AC0010DCDC /* passiton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07240FB41C7F89AD0010DCDC /* Build configuration list for PBXNativeTarget "passiton" */;
+			buildPhases = (
+				07240F801C7F89AC0010DCDC /* Sources */,
+				07240F811C7F89AC0010DCDC /* Frameworks */,
+				07240F821C7F89AC0010DCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = passiton;
+			productName = passiton;
+			productReference = 07240F841C7F89AC0010DCDC /* passiton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07240F9F1C7F89AD0010DCDC /* passitonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07240FB71C7F89AD0010DCDC /* Build configuration list for PBXNativeTarget "passitonTests" */;
+			buildPhases = (
+				07240F9C1C7F89AD0010DCDC /* Sources */,
+				07240F9D1C7F89AD0010DCDC /* Frameworks */,
+				07240F9E1C7F89AD0010DCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07240FA21C7F89AD0010DCDC /* PBXTargetDependency */,
+			);
+			name = passitonTests;
+			productName = passitonTests;
+			productReference = 07240FA01C7F89AD0010DCDC /* passitonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07240FAA1C7F89AD0010DCDC /* passitonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07240FBA1C7F89AD0010DCDC /* Build configuration list for PBXNativeTarget "passitonUITests" */;
+			buildPhases = (
+				07240FA71C7F89AD0010DCDC /* Sources */,
+				07240FA81C7F89AD0010DCDC /* Frameworks */,
+				07240FA91C7F89AD0010DCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07240FAD1C7F89AD0010DCDC /* PBXTargetDependency */,
+			);
+			name = passitonUITests;
+			productName = passitonUITests;
+			productReference = 07240FAB1C7F89AD0010DCDC /* passitonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07240F7C1C7F89AC0010DCDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Aman;
+				TargetAttributes = {
+					07240F831C7F89AC0010DCDC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2EK6837R43;
+					};
+					07240F9F1C7F89AD0010DCDC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 07240F831C7F89AC0010DCDC;
+					};
+					07240FAA1C7F89AD0010DCDC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 07240F831C7F89AC0010DCDC;
+					};
+				};
+			};
+			buildConfigurationList = 07240F7F1C7F89AC0010DCDC /* Build configuration list for PBXProject "passiton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07240F7B1C7F89AC0010DCDC;
+			productRefGroup = 07240F851C7F89AC0010DCDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07240F831C7F89AC0010DCDC /* passiton */,
+				07240F9F1C7F89AD0010DCDC /* passitonTests */,
+				07240FAA1C7F89AD0010DCDC /* passitonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07240F821C7F89AC0010DCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07240F9A1C7F89AD0010DCDC /* LaunchScreen.storyboard in Resources */,
+				07240F971C7F89AD0010DCDC /* Assets.xcassets in Resources */,
+				07240F921C7F89AC0010DCDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07240F9E1C7F89AD0010DCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07240FA91C7F89AD0010DCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07240F801C7F89AC0010DCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07240FEC1C80C0340010DCDC /* addnctcViewController.m in Sources */,
+				07240FD11C7F9AB40010DCDC /* FinSignUpViewController.m in Sources */,
+				07240FDA1C8056330010DCDC /* ReimbTableViewController.m in Sources */,
+				07240FC81C7F8C8D0010DCDC /* FinLoginViewController.m in Sources */,
+				07240FE61C8072B60010DCDC /* NonctcTableViewController.m in Sources */,
+				07240F8F1C7F89AC0010DCDC /* ViewController.m in Sources */,
+				07240FD71C8055F60010DCDC /* DetailEmpViewController.m in Sources */,
+				07240FF41C80D5BE0010DCDC /* CompNctcViewController.m in Sources */,
+				07240FFF1C8144820010DCDC /* HrNameTableViewController.m in Sources */,
+				07240FE91C8076CF0010DCDC /* addViewController.m in Sources */,
+				07240FFB1C8127830010DCDC /* sharedDB.m in Sources */,
+				07240FC21C7F8C690010DCDC /* EmpLoginViewController.m in Sources */,
+				07240F8C1C7F89AC0010DCDC /* AppDelegate.m in Sources */,
+				072410021C81560F0010DCDC /* HrViewController.m in Sources */,
+				072410081C8191ED0010DCDC /* FinViewController.m in Sources */,
+				07240FCE1C7F9AA50010DCDC /* HrSignUpViewController.m in Sources */,
+				07240FCB1C7F9A920010DCDC /* EmpSignUpViewController.m in Sources */,
+				07240FF11C80D5AE0010DCDC /* CompCtcViewController.m in Sources */,
+				07240F951C7F89AD0010DCDC /* passiton.xcdatamodeld in Sources */,
+				07240FC51C7F8C7A0010DCDC /* HrLoginViewController.m in Sources */,
+				07240FBF1C7F89FB0010DCDC /* TableViewController.m in Sources */,
+				07240FE31C8071FD0010DCDC /* CtcTableViewController.m in Sources */,
+				07240F891C7F89AC0010DCDC /* main.m in Sources */,
+				07240FF71C81009A0010DCDC /* Model.m in Sources */,
+				072410051C8191D80010DCDC /* FinTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07240F9C1C7F89AD0010DCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07240FA51C7F89AD0010DCDC /* passitonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07240FA71C7F89AD0010DCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07240FB01C7F89AD0010DCDC /* passitonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07240FA21C7F89AD0010DCDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07240F831C7F89AC0010DCDC /* passiton */;
+			targetProxy = 07240FA11C7F89AD0010DCDC /* PBXContainerItemProxy */;
+		};
+		07240FAD1C7F89AD0010DCDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07240F831C7F89AC0010DCDC /* passiton */;
+			targetProxy = 07240FAC1C7F89AD0010DCDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07240F901C7F89AC0010DCDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07240F911C7F89AC0010DCDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07240F981C7F89AD0010DCDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07240F991C7F89AD0010DCDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07240FB21C7F89AD0010DCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07240FB31C7F89AD0010DCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07240FB51C7F89AD0010DCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = passiton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neo.passiton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		07240FB61C7F89AD0010DCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = passiton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neo.passiton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		07240FB81C7F89AD0010DCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = passitonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neo.passitonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passiton.app/passiton";
+			};
+			name = Debug;
+		};
+		07240FB91C7F89AD0010DCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = passitonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neo.passitonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passiton.app/passiton";
+			};
+			name = Release;
+		};
+		07240FBB1C7F89AD0010DCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = passitonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neo.passitonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = passiton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07240FBC1C7F89AD0010DCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = passitonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neo.passitonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = passiton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07240F7F1C7F89AC0010DCDC /* Build configuration list for PBXProject "passiton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07240FB21C7F89AD0010DCDC /* Debug */,
+				07240FB31C7F89AD0010DCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07240FB41C7F89AD0010DCDC /* Build configuration list for PBXNativeTarget "passiton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07240FB51C7F89AD0010DCDC /* Debug */,
+				07240FB61C7F89AD0010DCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07240FB71C7F89AD0010DCDC /* Build configuration list for PBXNativeTarget "passitonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07240FB81C7F89AD0010DCDC /* Debug */,
+				07240FB91C7F89AD0010DCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07240FBA1C7F89AD0010DCDC /* Build configuration list for PBXNativeTarget "passitonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07240FBB1C7F89AD0010DCDC /* Debug */,
+				07240FBC1C7F89AD0010DCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07240F931C7F89AD0010DCDC /* passiton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07240F941C7F89AD0010DCDC /* passiton.xcdatamodel */,
+			);
+			currentVersion = 07240F941C7F89AD0010DCDC /* passiton.xcdatamodel */;
+			path = passiton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07240F7C1C7F89AC0010DCDC /* Project object */;
+}
